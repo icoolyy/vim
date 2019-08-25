@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
 Plug 'w0ng/vim-hybrid'
 Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " @airline
