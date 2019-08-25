@@ -4,6 +4,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
 Plug 'w0ng/vim-hybrid'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 " @airline
@@ -30,6 +31,9 @@ set hlsearch
 set incsearch
 " 设置折叠方式
 set foldmethod=indent
+
+" ss 搜索映射
+nmap ss <Plug>(easymotion-s2)
 
 " 一些方便得映射
 let mapleader=','
