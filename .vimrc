@@ -27,6 +27,7 @@ colorscheme hybrid
 set pastetoggle=<F2>
 " 高亮搜搜
 set hlsearch
+set incsearch
 " 设置折叠方式
 set foldmethod=indent
 
