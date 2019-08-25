@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/icoolyy/.ssh'
+let g:netrw_dirhist_2='/Users/icoolyy/Code/docker/rocketbird/pc_admin'
+let g:netrw_dirhist_3='/Users/icoolyy/Code/docker/rocketbird/web-fe-v2'
+let g:netrw_dirhist_4='/Users/icoolyy/Code/docker/rocketbird'
+let g:netrw_dirhist_5='/Users/icoolyy/Code/docker/rocketbird/web-fe-v2'
+let g:netrw_dirhist_6='/Users/icoolyy/Code/docker/rocketbird/apache'
+let g:netrw_dirhist_7='/Users/icoolyy/Code/docker/rocketbird/apache2-php5.6'
+let g:netrw_dirhist_8='/Users/icoolyy/Code/docker/rocketbird/php-mssql'
+let g:netrw_dirhist_9='/Users/icoolyy/Code/docker/rocketbird/mysql5.6'
