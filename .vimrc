@@ -2,6 +2,8 @@
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'mhinz/vim-startify'
+Plug 'w0ng/vim-hybrid'
 call plug#end()
 
 " @airline
@@ -19,6 +21,8 @@ let g:airline_right_alt_sep = '❮'
 set number
 " 设置高亮
 syntax on
+" 设置配色
+colorscheme hybrid
 " 设置粘贴映射
 set pastetoggle=<F2>
 " 高亮搜搜
