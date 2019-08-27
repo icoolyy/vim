@@ -37,6 +37,8 @@ ctrl+b 前移一个字符
 ctrl+f 后移一个字符
 ctrl+c/[ 功能同Esc 切换insert和normal模式
 gi 快速回到刚才编辑的地方
+q:退出当前窗口
+qa:退出所有
 
 normal 模式下快速移动
 h、j、k、l 左，下，上，右
@@ -51,3 +53,25 @@ b/B 移动到上一个单词的开头
 ***大小写区分自然单词和空白符强制分割的单词。
 行间的搜索移动
 f{char}移动到字符char上，t{char}移动到char的前一个字符，如果重复则可以用;/,进行下移
+normal Mode
+ctrf+f:下一屏
+ctrl+b:上一屏
+ctrl+d:向下翻半屏
+ctrl+u:向上翻半屏
+
+viw 选中当前word
+daw : delete a word
+dt{char}: delete to the char
+dd : delete the row
+x : delete a char
+c : change
+c : change a word
+r/R 一次替换或一直替换
+c/C c需要某种运动,cl与s基本相同,例如您可以键入cw删除整个单词并进入插入模式,C用您的编辑替换该行的其余部分（从光标位置开始）
+s/S c删除一个字符并进入编辑模式,cc和S是同义词，用您的编辑替换整个行
+.重复前一次操作
+u撤销前次操作
+ctrl+r撤销最近一次撤销
+/或? 向后或向前搜索
+n/N 定位到搜索项向后或向前移动
+*/# 移动到新的位置继续匹配搜索,向前向后
